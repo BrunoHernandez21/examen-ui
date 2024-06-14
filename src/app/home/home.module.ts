@@ -4,6 +4,8 @@ import { CommonModule } from "@angular/common";
 import { HomeRoutingModule } from "./home-routing.module";
 import { CardRegisterComponent } from "./components/card-register/card-register.component";
 import { CarouselComponent } from "./components/caroucel/carousel.component";
+import {FormsModule} from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations:[
@@ -13,6 +15,8 @@ import { CarouselComponent } from "./components/caroucel/carousel.component";
   ],
   imports:[
     CommonModule,
+    FormsModule,
+    HttpClientModule,
     HomeRoutingModule,
   ],
 })

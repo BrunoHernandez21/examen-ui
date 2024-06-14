@@ -15,9 +15,9 @@
         <div class="icon-people">
           <img src="assets/img/ico_user.svg" alt="">
         </div>
-        <input class="input-custom" placeholder="Introduce tu CURP" type="text">
+        <input class="input-custom" [(ngModel)]='curp'  placeholder="Introduce tu CURP" type="text">
       </div>
-      <button class="button-acept"><span class="text-button">Continuar</span> </button>
+      <button class="button-acept" (click)="sendCurp()"><span class="text-button">Continuar</span> </button>
     </div>
     <div class="container-helper">
       <span class="text-helper">Si no conoces tu CURP </span>
