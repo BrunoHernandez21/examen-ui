@@ -1,0 +1,46 @@
+html,body,p,h1,h2,h3,h4{
+  margin: 0;
+  padding: 0;
+}
+button{
+  cursor: pointer;
+  border: none;
+}
+
+
+@font-face {
+  font-family: 'Nutmeg-Black';
+  src: url('assets/fonts/Nutmeg-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nutmeg-Bold';
+  src: url('assets/fonts/Nutmeg-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nutmeg-Book';
+  src: url('assets/fonts/Nutmeg-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nutmeg-ExtraBold';
+  src: url('assets/fonts/Nutmeg-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nutmeg-ExtraBoldItalic';
+  src: url('assets/fonts/Nutmeg-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nutmeg-Regular';
+  src: url('assets/fonts/Nutmeg-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
